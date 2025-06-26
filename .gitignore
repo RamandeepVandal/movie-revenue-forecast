@@ -1,5 +1,22 @@
-.env
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Ignore data files (optional)
+*.csv
+*.xlsx
+*.sav
+*.parquet
+
+# Ignore virtual environments
+.env/
+.venv/
+
+# Ignore env files
+.env
+
+# Ignore large local files (like PBIX, optional)
 *.pbix
-*.ipynb_checkpoints/
