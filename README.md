@@ -27,7 +27,7 @@ To explore what makes a movie successful and build a model that predicts profita
 
 2. **EDA + Feature Engineering**
    - Extracted date/year, simplified genre labels
-   - Created a new binary column: `is_successful`
+   - Created a new binary column: `made_profit`
 
 3. **Modeling**
    - Compared Logistic Regression, Random Forest, and XGBoost
@@ -37,7 +37,7 @@ To explore what makes a movie successful and build a model that predicts profita
 
 4. **Dashboard (Power BI)**
    - Visualized success % by language, genre, year
-   - Included filters for genres, production countries, years
+   - Included filters for genres, production countries
 
 ---
 
