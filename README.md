@@ -45,6 +45,8 @@ To explore what makes a movie successful and build a model that predicts profita
 
 ![Dashboard Screenshot](images/dashboard_screenshot.png)
 
+![Model Accuracy - Logistic Regression](images/model_accuracy_confusion_matrix.png)
+
 > 🟢 You can find the full `.pbix` file under `/dashboard`.
 
 ---
