@@ -17,6 +17,3 @@ __pycache__/
 
 # Ignore env files
 .env
-
-# Ignore large local files (like PBIX, optional)
-*.pbix
