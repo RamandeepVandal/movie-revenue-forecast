@@ -53,7 +53,8 @@ To explore what makes a movie successful and build a model that predicts profita
 
 ## 📈 Key Insights
 
-- 🎭 **Drama and War movies** tend to underperform.
+- 🎭 **Horror, Western and Fantasy movies** tend to perform well.
+- 📉 **Foreign and Documentary movies** tend to underperform. 
 - 💰 Movies with **higher budgets** are more likely to be profitable.
 - 🌍 Certain **production countries** like USA and UK dominate profitable outputs.
 - 🧠 XGBoost delivered the best results with 86% F1 Score and 99% Recall.
