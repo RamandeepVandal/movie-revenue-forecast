@@ -27,7 +27,7 @@ To explore what makes a movie successful and build a model that predicts profita
 
 2. **EDA + Feature Engineering**
    - Extracted date/year, simplified genre labels
-   - Created a new binary column: `is_successful`
+   - Created a new binary column: `made_profit`
 
 3. **Modeling**
    - Compared Logistic Regression, Random Forest, and XGBoost
@@ -37,7 +37,7 @@ To explore what makes a movie successful and build a model that predicts profita
 
 4. **Dashboard (Power BI)**
    - Visualized success % by language, genre, year
-   - Included filters for genres, production countries, years
+   - Included filters for genres, production countries
 
 ---
 
@@ -45,13 +45,16 @@ To explore what makes a movie successful and build a model that predicts profita
 
 ![Dashboard Screenshot](images/dashboard_screenshot.png)
 
+![Model Accuracy - Logistic Regression](images/model_accuracy_confusion_matrix.png)
+
 > 🟢 You can find the full `.pbix` file under `/dashboard`.
 
 ---
 
 ## 📈 Key Insights
 
-- 🎭 **Drama and War movies** tend to underperform.
+- 🎭 **Horror, Western and Fantasy movies** tend to perform well.
+- 📉 **Foreign and Documentary movies** tend to underperform. 
 - 💰 Movies with **higher budgets** are more likely to be profitable.
 - 🌍 Certain **production countries** like USA and UK dominate profitable outputs.
 - 🧠 XGBoost delivered the best results with 86% F1 Score and 99% Recall.
